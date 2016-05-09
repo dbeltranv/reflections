@@ -1,0 +1,5 @@
+lesson_2_reflections
+
+What happens when you initialize a repository? Why do you need to do it?
+
+You are telling git to keep track of the files inside the directory, allowing the further commands and commits to happen.
