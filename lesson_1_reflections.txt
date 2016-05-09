@@ -1,0 +1,44 @@
+Control de versión permite acceder de manera focalizada a los cambios
+ hechos por el desarrollador. Ya que los errores de compilación son 
+ humanos, seguir el proceso se cambios permite ver donde están las 
+ fallas y si se desea, volver a un estado anterior. Al poder observar 
+ como nuestro progreso avanza, reconocemos las habilidades y nuevas 
+ técnicas aprendidas, lo que estimula un efecto bola de nieve en nuestro 
+ aprendizaje. Miro hacia atrás y se cuento he progresado, como ha 
+ cambiado mi enfoque, y si es necesario, puedo volver atras para 
+ mejorarlo sin tener que rehacer todo. No puedes hacer eso con tu vida, 
+ puedes partir de cero con tu aprendizaje previo, pero con el código y 
+ el control de versión puedes estudiar y elegir el momento preciso 
+ donde te desorientaste y analizar la factibilidad de volver a el, en 
+ vez de perder tiempo tratando de cambiar la presente.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+El debuggeo es escencial en la vida del programador, de hecho la mayor 
+parte del tiempo una vez aprendido el lenguaje de programación se basaba
+en debugear, en un pasado use guardar muchas versiones manualmente de 
+los codigos que trabajé, como resultado casi nunca revisé esas 
+versiones, si no que creaba nuevas para experimentar y siempre teniendo 
+la versión base funcionando.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+The pros include personal decision making on whats better, thou improve 
+learning of the proccess, identifying the important changes that affects
+the code, keep track also in your head of the development of the proyet. Improving with time on the best point to commit, so you dont over or under commit.
+CONS: adding a concern to your brain, that a machine could do, overcommiting or undercomitting depending on the circumstances, so personal state could interfier. You save time also by letting it done automaticly, and been sure that you're not under or over commiting.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+It allows to track file changes interralated, wich is a principal 
+characteristic on coding (big proyect into smaller ones and be ale to 
+tack back and forth your advance), intead of other services that focus 
+on single files that can be organized from inside, like excel pages ,or
+gdocs sections. So the main reason is the focus on the organization 
+development of the files that will be commited.
+
+How can you use the commands git log and git diff to view the history of files?
+
+Con log puedo ver todas las modificaciones y con diff puedo observar entre
+estas cuales fueron específicamente los cambios realizados,permitiendo
+que se pueda vizualizar la evolución. 
