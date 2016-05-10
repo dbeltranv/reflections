@@ -1,0 +1,21 @@
+lesson_2_reflections
+
+What happens when you initialize a repository? Why do you need to do it?
+
+You are telling git to keep track of the files inside the directory, allowing the further commands and commits to happen.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+in the working directory are containd all the files, in the repository you find the history of one or several files
+and the stagging area is where the files that are going to be commited must be placed. it offers the option of not 
+fullfilling the repository with every file, but whit the ones that may be altered in the future of the proyect.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+git status should be clean after a logical change is made, if i think i havent, status will show 
+me in the stagging area what ive missed
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+now with commits i have the history of different changes in a proyect, now with branches i can 
+change more deep structure therefore experimenting with other solutions or technics and not overfiling a single text code 
